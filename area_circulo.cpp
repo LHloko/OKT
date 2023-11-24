@@ -3,12 +3,12 @@
 using namespace std;
 
 int main(){
-    auto pi =  3.14159;
-    int R; cin>>R;
+    double pi = 3.14159;
+    double R; cin>>R;
 
     cout<<fixed<<setprecision(4);
-    cout<<"A="<<pi*(R*R);
-    //cout<<"A="<<pi*pow(R,2);
+    cout<<"A="<<pi*(R*R)<<endl;
+    //cout<<"A="<<pi*pow(R,2)<<endl;
 
     return 0;
 }
